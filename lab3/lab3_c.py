@@ -1,11 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def swap(a,b):
-    temp=a
-    a=b
-    b=temp
-
 img = plt.imread('picture.jpg')
 
 img2 = np.array(img)
