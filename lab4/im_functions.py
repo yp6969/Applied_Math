@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 def to_black_n_white(img):
     # shape = img.shape
     img_b = np.average(img , axis=-1)
-    print(np.shape(img_b))
-    avg = 256/2
+    plt.gray()
+    avg = 0.5
     # for i in range(shape[0]):
     #     for j in range(shape[1]):
     #         avg = np.average(img[i,j]) / 255
