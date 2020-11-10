@@ -28,6 +28,8 @@ def similarity2(img1, img2):
     img1 = np.ravel(img1)
     img2 = np.ravel(img2)
 
-    img1 = img1 / np.linalg.norm(img1)
-    img2 = img2 / np.linalg.norm(img2)
-    return np.inner(img1, img2)
+    # img1 = img1 / np.linalg.norm(img1)
+    # img2 = img2 / np.linalg.norm(img2)
+
+    iner = np.absolute(np.inner(img1, img2))
+    return iner/(np.linalg.norm(img1) * np.linalg.norm(img2))
