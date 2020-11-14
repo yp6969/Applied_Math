@@ -19,8 +19,8 @@ Th = 0.8 # threshold
 Xtest = np.zeros([L,L])
 while ipN<Th:
     Xtest[1:L-1,1:L-1] = (np.random.rand(L-2,L-2)) > 0.6
-
     Xtest1 = Xtest.astype(float)
+
 
     # plt.figure()
     plt.subplot(1,2,1)
@@ -41,7 +41,6 @@ while ipN<Th:
     if Ntest >= 1.8*N:
         print('Ntest= ' , Ntest,'access denided, call security')
         break
-
     ipN = ip/N
     if ipN>Th:
         print('ipN = ', ipN , 'access premitted')
