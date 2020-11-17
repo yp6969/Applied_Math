@@ -14,6 +14,7 @@ def norm(v,p):
 
 
 def main():
+
     #a:
     v = np.array([1,-2,3,1,5])
     p = random.randint(1,10)
