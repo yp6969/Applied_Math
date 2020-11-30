@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 import time
 import sounddevice as sd
 
+
+def chirp(t,f0,u,fs):
+
+
+
+
+
 fs = 10000
 dur = 10
 L = int(fs*dur)
@@ -51,3 +58,4 @@ for j in range(iplen):
 plt.show(block= False)
 sd.play(xnsig[nstart:nstart+Nsig], fs)
 plt.pause(1)
+
