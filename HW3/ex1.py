@@ -17,7 +17,8 @@ def gram_shmidet(A):
 
 A = np.array([[1,0,0],
               [0,1,0],
-              [1,1,1]])
+              [1,0,1]])
 a = gram_shmidet(A)
 print(a)
+print(lin.norm(a[:,0]))
 print(np.inner(a[:,1] , a[:,2]))
