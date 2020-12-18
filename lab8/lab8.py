@@ -42,4 +42,4 @@ if __name__ == '__main__':
     dx = x[1] - x[0]
     fx = lambda x: x**2
     fourier_approx(fx)
-    mclauren()
+    # mclauren()
