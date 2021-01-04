@@ -45,7 +45,7 @@ def fourierEstComplex(m,N,func,xl,xr):
         fourier_func += c_n * np.exp((2 * np.pi * 1j * n * x) / dx)
 
         plt.plot(x, f, label='original')
-        plt.plot(x, fourier_func, label='approximation')
+        plt.plot(x, fourier_func.real, label='approximation')
         plt.show(block=False)
         plt.pause(0.1)
 
