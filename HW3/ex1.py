@@ -29,7 +29,6 @@ a = gram_shmidet(A)
 print(a)
 print(lin.norm(a[:,0]))
 print(np.inner(a[:,1] , a[:,2]))
-=======
 
 
 Q, R = gram_shmidet(A)
