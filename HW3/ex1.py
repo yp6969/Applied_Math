@@ -24,7 +24,7 @@ def gram_shmidet(A):
 A = np.array([[1,0,0],
               [0,1,0],
               [1,0,1]])
-<<<<<<< HEAD
+
 a = gram_shmidet(A)
 print(a)
 print(lin.norm(a[:,0]))
@@ -36,4 +36,4 @@ Q, R = gram_shmidet(A)
 print('Q matrix:', Q)
 print()
 print('R matrix:', R)
->>>>>>> f7f73db4cf0e00d5424863a5420a19a81dd9a670
+
